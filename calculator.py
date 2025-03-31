@@ -11,3 +11,6 @@ def calculate_discount(price, discount_percent):
 # Get user input
 price = float(input("Enter the price of the item: "))
 discount_percent = float(input("Enter the discount percentage: "))
+
+# Get the final price
+final_price = calculate_discount(price, discount_percent)
